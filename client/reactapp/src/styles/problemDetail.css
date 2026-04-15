@@ -1,0 +1,22 @@
+.problem-detail {
+  display: flex;
+  gap: 20px;
+}
+
+.problem-info {
+  width: 50%;
+}
+
+.problem-compiler {
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+  .problem-detail {
+    flex-direction: column;
+  }
+  .problem-info,
+  .problem-compiler {
+    width: 100%;
+  }
+}

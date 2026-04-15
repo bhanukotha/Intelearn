@@ -1,0 +1,19 @@
+.practice-container {
+  padding: 20px;
+}
+
+.problem-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.problem-table th,
+.problem-table td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+}
+
+.clickable {
+  color: #4ea1ff;
+  cursor: pointer;
+}
